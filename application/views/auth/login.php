@@ -18,10 +18,12 @@
                         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                         <input id="login-username" type="text" class="form-control" name="email" value="<?php echo $this->input->post('email');?>" placeholder="Email address">
                     </div>
+
                     <div style="margin-bottom:7px" class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                         <input id="login-password" type="password" class="form-control" name="password" placeholder="password">
                     </div>
+
                     <div class="input-group">
                         <div class="checkbox">
                             <label>
@@ -29,6 +31,7 @@
                             </label>
                         </div>
                     </div>
+
                     <div style="margin-top:15px" class="form-group">
                         <div class="col-sm-12 controls">
                             <input type="submit" class="btn btn-primary" value=" Login ">
